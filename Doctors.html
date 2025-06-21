@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.7.1.min.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="health.css">
+    <link rel="stylesheet" href="Treatment.css">
+<link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <script src="health.js"></script>
+    <title>Health Hub</title>
+</head>
+<body>
+    <header class="ha" >
+        <div class="container-fluid">
+            <nav
+            class="navbar navbar-expand-sm fixed-top navbar-light "
+        >
+            <div  class="container  ">
+                <a class="navbar-brand" style="color:yellow ; font-weight: 1000; text-shadow: rgb(32, 32, 32);" href="#">Health Hub</a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul  class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="health.html" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Treatment.html">Treatments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Doctors.html">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Enquiry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="H">Help</a>
+                       </li>
+                        
+                        <li class="nav-item dropdown" style="color: white;">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                 style="color: white;">Modules </a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                           
+                                <a class="dropdown-item" href="#"
+                                    >Action 1</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Action 2</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input
+                            class="form-control me-sm-2"
+                            type="text"
+                            placeholder="Search"
+                        />
+                        <button
+                            class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit" style="color: white;"
+                        >
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        </div>
+    </header>
+
+
+
+
+<!-- Cardiology - Assigned Doctors -->
+<div class="container p-5 doc">
+    <h3 class="text-center p-2">Our Cardiology Experts</h3>
+    <div class="row ">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc1.jpg" class="img-fluid rounded" alt="Dr. Aryan Mehta">
+            <h5 class="mt-2">Dr. Aryan Mehta</h5>
+            <p>Senior Cardiologist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc2.jpg" class="img-fluid rounded" alt="Dr. Priya Sharma">
+            <h5 class="mt-2">Dr. Priya Sharma</h5>
+            <p>Heart Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc3.jpg" class="img-fluid rounded" alt="Dr. Kunal Kapoor">
+            <h5 class="mt-2">Dr. Kunal Kapoor</h5>
+            <p>Interventional Cardiologist</p>
+        </div>
+    </div>
+</div>
+
+<!-- Orthopedics - Assigned Doctors -->
+<div class="container p-3">
+    <h3 class="text-center">Our Orthopedic Experts</h3>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc4.jpg" class="img-fluid rounded" alt="Dr. Rohan Iyer">
+            <h5 class="mt-2">Dr. Rohan Iyer</h5>
+            <p>Bone & Joint Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc5.jpg" class="img-fluid rounded" alt="Dr. Sneha Verma">
+            <h5 class="mt-2">Dr. Sneha Verma</h5>
+            <p>Sports Injury Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc6.jpg" class="img-fluid rounded" alt="Dr. Vishal Nair">
+            <h5 class="mt-2">Dr. Vishal Nair</h5>
+            <p>Spine Surgeon</p>
+        </div>
+    </div>
+</div>
+
+<!-- Neurology - Assigned Doctors -->
+<div class="container p-3">
+    <h3 class="text-center">Our Neurology Experts</h3>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc7.jpg" class="img-fluid rounded" alt="Dr. Ananya Gupta">
+            <h5 class="mt-2">Dr. Ananya Gupta</h5>
+            <p>Stroke Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc8.jpg" class="img-fluid rounded" alt="Dr. Rajesh Menon">
+            <h5 class="mt-2">Dr. Rajesh Menon</h5>
+            <p>Neurophysician</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc9.jpg" class="img-fluid rounded" alt="Dr. Sidharth Rao">
+            <h5 class="mt-2">Dr. Sidharth Rao</h5>
+            <p>Epilepsy Specialist</p>
+        </div>
+    </div>
+</div>
+
+<!-- Pediatrics - Assigned Doctors -->
+<div class="container p-3">
+    <h3 class="text-center">Our Pediatric Experts</h3>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc10.jpg" class="img-fluid rounded" alt="Dr. Nisha Patel">
+            <h5 class="mt-2">Dr. Nisha Patel</h5>
+            <p>Child Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc11.jpg" class="img-fluid rounded" alt="Dr. Amit Roy">
+            <h5 class="mt-2">Dr. Amit Roy</h5>
+            <p>Neonatal Care Expert</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc12.jpg" class="img-fluid rounded" alt="Dr. Simran Kaur">
+            <h5 class="mt-2">Dr. Simran Kaur</h5>
+            <p>Pediatric Surgeon</p>
+        </div>
+    </div>
+</div>
+
+<!-- Oncology - Assigned Doctors -->
+<div class="container p-3">
+    <h3 class="text-center">Our Oncology Experts</h3>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc13.jpg" class="img-fluid rounded" alt="Dr. Manish Agarwal">
+            <h5 class="mt-2">Dr. Manish Agarwal</h5>
+            <p>Surgical Oncologist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc14.jpg" class="img-fluid rounded" alt="Dr. Pooja Bhatia">
+            <h5 class="mt-2">Dr. Pooja Bhatia</h5>
+            <p>Radiation Oncologist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc15.jpg" class="img-fluid rounded" alt="Dr. Arvind Sinha">
+            <h5 class="mt-2">Dr. Arvind Sinha</h5>
+            <p>Chemotherapy Specialist</p>
+        </div>
+    </div>
+</div>
+
+<!-- Maternity and Women's Health - Assigned Doctors -->
+<div class="container p-3">
+    <h3 class="text-center">Our Maternity & Women's Health Experts</h3>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc16.jpg" class="img-fluid rounded" alt="Dr. Kavita Joshi">
+            <h5 class="mt-2">Dr. Kavita Joshi</h5>
+            <p>Gynecologist & Obstetrician</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc17.jpg" class="img-fluid rounded" alt="Dr. Ramesh Reddy">
+            <h5 class="mt-2">Dr. Ramesh Reddy</h5>
+            <p>Pregnancy Care Specialist</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/doc18.jpg" class="img-fluid rounded" alt="Dr. Megha Sharma">
+            <h5 class="mt-2">Dr. Megha Sharma</h5>
+            <p>Fertility Expert</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    
+
+
+    
+    <!-----------------------------Footer------------------------------>
+    <footer class="care-footer">
+        <div id="footer-content">
+       <div class="care-footer-blue">
+       <div class="container-custom foot-cont row no-padding m-0">
+       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+       <div class="divideline-ftr">
+       <h3 class="foot-header border-0">
+           Registered office
+       </h3>
+       <div class="care-address">
+       <p class="footer-p">
+       
+           Quality CARE India Limited
+           <br>
+           #6-3-248/2, Road No.1,
+           <br>
+           
+           Banjara Hills, Hyderabad-500034,
+           <br>
+           "Telangana, India."
+       </p>
+       
+       <p class="footer-p">
+           CIN: U85110TG1992PLC014728
+       </p>
+       <a href="#">
+          <p class="footer-p">
+           +91-40 6810 6589
+          </p> 
+       </a>
+       <a href="#">
+           <p class="footer-p">
+               Doctor Enquiry: +91-40 6810 6585
+           </p> 
+        </a>
+       </div>
+       <br>
+       <div class="social-footicon">
+       <a href="#">
+           <img class="foot-icon" 
+           src="yticon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+       </a>
+       <a href="#">
+           <img class="foot-icon" 
+           src="xicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+       </a>
+       <a href="#">
+           <img class="foot-icon" 
+           src="fbicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+       </a>
+       <a href="#">
+           <img class="foot-icon" 
+           src="instaicon.jpeg" alt="youtube logo" height="30" width="30" loading="lazy">
+       </a>
+       <a href="#">
+           <img class="foot-icon" 
+           src="linkedinicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+       </a>
+       </div>
+       
+       
+       <div>
+       
+       </div>
+       </div>
+       </div>
+       <br>
+       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+           <h3 class="foot-header">
+               Know Us
+           </h3>
+       
+           <a href="#">
+               <p class="footer-p">
+                   Hospitals & Directions
+               </p> 
+            </a>
+            
+       <a href="#">
+           <p class="footer-p">
+               Specialities & Treatment
+           </p> 
+        </a>
+        
+       <a href="#">
+           <p class="footer-p">
+               Our Doctors
+           </p> 
+        </a>
+        
+       <a href="#">
+           <p class="footer-p">
+               International Patient Services
+           </p> 
+        </a>
+        
+       <a href="#">
+           <p class="footer-p">
+               News & Media
+           </p> 
+        </a>
+       
+       
+           
+        <h3 class="foot-header">
+           TARIFF
+       </h3>
+        
+       <a href="https://www.carehospitals.com/careers">
+           <p class="footer-p">
+               Careers
+           </p> 
+        </a>
+        <div>
+       <button class="btn btn bg-white">
+       stent pricing
+       </button>
+       <button class="btn btn bg-white">
+           Implant Pricing
+           </button>
+        </div>
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+           <h3 class="foot-header">
+               Actions
+           </h3>
+       
+           <a href="#">
+               <p class="footer-p">
+                   Contact Us
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Book an Appointment
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Pay Online
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Feedback
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Lab Reports
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Video Consultation
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Pay Online
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Feedback
+               </p> 
+            </a>
+            
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+           <h3 class="foot-header">
+               Centres of Excellence
+           </h3>
+       
+           <a href="#">
+               <p class="footer-p">
+                   Cardiac Sciences
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Gastro Sciences
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Nephrology
+       
+                   
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Neurosciences
+                   
+                   
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Oncology
+                   
+                  
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Orthopaedics
+                  
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   
+                   Paediatrics
+                   
+                 
+               </p> 
+            </a>
+            <a href="#">
+               <p class="footer-p">
+                   Pulmonology
+                   
+                  
+               </p> 
+            </a>
+       </div>
+       </div>
+       
+       
+       <div class="footer-location-area care-footer-stp care-foo-p">
+       <p class="care-foo-p care-footer-stp">
+       <span style="font-weight: 500;">Kakinada</span>
+       <div class="vr"></div>
+       <span style="font-weight: 500;" >Rajamahendravaram</span>
+       <div class="vr"></div>
+       <span style="font-weight: 500;">Amalapuram</span>
+       <div class="vr"></div>
+       <span style="font-weight: 500;">Guntur</span>
+       <div class="vr"></div>
+       <span style="font-weight: 500;">vishakapatnam</span>
+       <div class="vr"></div>
+       <span style="font-weight: 500;">vijayawada</span>
+       </p>
+       </div>
+       
+       <div class="footer-copyright-area container-custom privacy">
+           <p class="copyright-p">Copyright © Health Hub Hospitals - All Rights Reserved</p>
+           <p class="copyright-p">
+       
+               <a href="#">feedback</a>
+               <a href="#">feedback</a>
+               <a href="#">feedback</a>
+       
+           </p>
+       </div>
+       </div>
+       
+        </div>   
+       
+       
+       </footer>
+       
+       
+          
+       <script src="js/bootstrap.bundle.min.js"></script>
+           </body>
+       </html>
